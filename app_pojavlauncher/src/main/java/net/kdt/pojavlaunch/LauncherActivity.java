@@ -146,6 +146,12 @@ public class LauncherActivity extends BaseActivity {
             }
         }
 
+        Boolean isHGl4es = prof.pojavRendererName.equals("opengles2");
+        Boolean isAbove1_21_5 = normalizedVersionId.toInteger >= 1215;
+        if () {
+          
+        }
+
         new MinecraftDownloader().start(
                 this,
                 mcVersion,
